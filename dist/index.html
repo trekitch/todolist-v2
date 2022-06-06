@@ -4,12 +4,29 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="main.js"></script>
-        <title>To=Do List</title>
+        <script src="main.js" defer></script>
+        <title>To-Do List</title>
     </head>
     <body>
         <header>To Do List</header>
-        <div class="main"></div>
+        <div class="container">
+            <div class="sidebar">
+                <div class="add-todo">+ Add Todo</div>
+                <div class="inbox">Inbox</div>
+                <div>Today</div>
+                <div>This Week</div>
+                <div>This Month</div>
+
+                <h3>Projects</h3>
+                <div class="project-sec"></div>
+            </div>
+            <div class="main">
+                <div class="main-header">Inbox</div>
+                <div class="todo-list"></div>
+                <div class="add-todo-form-container"></div>
+                <div class="add-project">+ Add Project</div>
+            </div>
+        </div>
         <footer>Created by Tre'von Kitchen</footer>
     </body>
 </html>

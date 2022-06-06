@@ -10,6 +10,25 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 300px;
+}
+
 .main {
+    flex-grow: 1;
+}
+
+.todo-container{
+    display: flex;
+    flex-grow: 1;
+}
+
+.todo-list {
     flex-grow: 1;
 }
