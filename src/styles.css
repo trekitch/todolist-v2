@@ -32,3 +32,7 @@ body {
 .todo-list {
     flex-grow: 1;
 }
+
+.add-todo-form {
+    display: none;
+}
