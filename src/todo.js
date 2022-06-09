@@ -2,7 +2,7 @@
 
 const todos = [
     { Name: "test 1", Due: "09/26/1995", Desc: "test 3", Priority: "Mid", Project: "Inbox" },
-    { Name: "test 1", Due: "09/26/1995", Desc: "test 3", Priority: "Mid", Project: "Inbox" },
+    { Name: "test 1", Due: "09/26/2022", Desc: "This is a desc", Priority: "Mid", Project: "Inbox" },
 ];
 
 const createTodo = (name, dueDate, description, priority, projectId) => {
